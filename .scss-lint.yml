@@ -1,4 +1,0 @@
-scss_files: '_sass/*.scss'
-linters:
-  PropertySortOrder:
-    enabled: false

@@ -19,15 +19,14 @@ Forked From [Crisp Minimal Résumé](https://github.com/crispgm/resume).
 2. Init Hexo
 
     ```shell
-    hexo new your-resume
+    hexo new your-site
     ```
 
 3. Use Theme
 
-    ```shell
-    # Clone the repo in a different folder
-    # e.g. /path/to/resume
-    git clone https://github.com/crispgm/resume.git
+    ```git
+    # Clone the repo in your-site/themes/
+    git clone https://github.com/mtics/hexo-mtics-resume.git
     
     # Then, change theme in `_config.yml`
     ```
@@ -40,12 +39,12 @@ Forked From [Crisp Minimal Résumé](https://github.com/crispgm/resume).
     theme: hexo-mtics-resume
     ```
 
-    The `baseurl` is required in `_config.yml` if you serve this page as part of your website. And your contact information, __EDUCATION__, __SKILLS__, __EXPERIENCE__, and __PROJECTS__ data under `resume`. See example in [/port-hexo/_config.yml](/_config.yml).
+    The `baseurl` is required in `_config.yml` if you serve this page as part of your website. And your contact information, __EDUCATION__, __SKILLS__, __EXPERIENCE__, and __PROJECTS__ data under `resume`. See example in [/hexo-mtics-resume/_config.yml](/_config.yml).
 
 5. Run and Debug
 
     ```shell
-    hexo server
+    hexo s
     ```
 
 ## License

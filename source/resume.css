@@ -108,10 +108,6 @@ section {
   min-width: 10rem; 
 }
 
-.section-flex {
-  display: flex;
-  flex-wrap: wrap; }
-
 .block {
   margin-bottom: 2rem; 
   display: grid;
@@ -119,12 +115,9 @@ section {
   grid-template-rows: 1fr auto;
 }
 .block:last-child {
-    margin-bottom: 0; }
+    margin-bottom: 0; 
+}
 
-.block-square {
-  width: 18rem; }
-  .block-square:nth-last-child(2) {
-    margin-bottom: 0; }
 
 .block-title {
   font-size: 1.2rem;
@@ -136,7 +129,9 @@ section {
   font-size: 1rem;
   display: table-row;
   margin-bottom: 1rem;
-  color: #adb5bd; }
+  color: #adb5bd; 
+  text-align: end;
+}
 
 .block-content {
   font-size: 1rem;
@@ -156,11 +151,8 @@ section {
     text-align: center;
     margin-bottom: 2rem; }
 
-  .section-flex {
-    display: block; }
-
-  .block-square:nth-last-child(2) {
-    margin-bottom: 2rem; } }
+  
+}
 footer {
   color: #adb5bd;
   font-size: 1rem;

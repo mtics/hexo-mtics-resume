@@ -110,21 +110,4 @@
     </div>
   </section>
 
-  <section id="languages">
-    <div class="section-title">
-      Languages
-    </div>
-    <div class="section-content section-flex">
-      {% for language in theme.resume.languages %}
-      <div class="block block-square">
-        <div class="block-title">
-          {{ language.name }}
-        </div>
-        <div class="block-content">
-          {{ language.proficiency }}
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
 </div>

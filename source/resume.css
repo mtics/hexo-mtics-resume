@@ -57,11 +57,14 @@ header {
 }
 
 .title {
-  font-size: 2.2rem; }
+  font-size: 2rem; 
+  margin-top: .8rem;
+}
 
 .sub-title {
-  font-size: 1.2rem;
-  margin-top: .8rem; }
+  font-size: 1rem;
+  margin-top: 1.8rem; 
+}
 
 .contact {
   font-size: 1rem;
@@ -72,11 +75,9 @@ header {
 }
 
 .contact-item {
-  margin-top: .4rem; 
+  margin-top: 0rem; 
 }
-.contact-item:nth-child(1) {
-  margin-top: 0; 
-}
+
 .contact-item:a {
   color: inherit;
   text-decoration: none; 
@@ -116,14 +117,16 @@ header {
 
 section {
   display: inline-table;
-  padding-left: .2rem;
+  margin-top: .8rem;
   width: 100%;
   /* border-bottom: 0.1rem solid #adb5bd; */
   hyphens: auto; }
 
 .section-title {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
   text-align: left;
+  text-transform: uppercase;
   border-bottom: 0.1rem solid #adb5bd;
   min-width: 10rem; 
 }
@@ -140,17 +143,17 @@ section {
 
 
 .block-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold; }
 
 .block-subtitle {
-  font-size: 1rem;
-  color: #adb5bd; 
+  font-size: .8rem;
+  font-weight: bold;
   text-align: end;
 }
 
 .block-content {
-  font-size: 1rem;
+  font-size: .9rem;
   line-height: 1.5; 
   grid-column-start: 1;
   grid-column-end: 3;

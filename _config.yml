@@ -1,5 +1,8 @@
 title: Résumé
 
+footer:
+  show: false # decide where you want to show  your footer
+
 # customize your copyright in footer, e.g. © 2019-2020 Jevis Li
 copyright:
   startYear: 2019

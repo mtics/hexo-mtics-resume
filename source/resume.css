@@ -42,16 +42,21 @@ a {
 
   .print {
     display: none; } }
+
 header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
   /* border-bottom: 0.1rem solid #adb5bd; */
   padding-top: 2.2rem;
   padding-bottom: 2.2rem; }
 
 .name-wrapper {
   padding-top: 1rem;
-  padding-bottom: 1rem; }
+  padding-bottom: 1rem; 
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
 
 .title {
   font-size: 2.2rem; }
@@ -62,7 +67,12 @@ header {
 
 .contact {
   font-size: 1rem;
-  padding-top: 1rem; }
+  padding-top: 1rem; 
+  grid-row-start: 2;
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
 
 .contact-item {
   margin-top: .4rem; }

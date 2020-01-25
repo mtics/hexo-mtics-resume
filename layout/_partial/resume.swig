@@ -60,7 +60,7 @@
         <div class="block-title">
           {{ skill.title }}
         </div>
-        <div class="block-content">
+        <div class="block-subtitle">
           {{ skill.items }}
         </div>
       </div>

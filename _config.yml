@@ -1,15 +1,14 @@
 title: Résumé
 
 footer:
-  show: false # decide where you want to show  your footer
+  enable: true # decide where you want to show  your footer
+  copyright:  # customize your copyright in footer, e.g. © 2019-2020 Jevis Li
+    startYear: 2019
+    currentYear: 2020
+    author: Jevis Li
+    link: https://github.com/mtics/hexo-mtics-resume
+    beian: 
 
-# customize your copyright in footer, e.g. © 2019-2020 Jevis Li
-copyright:
-  startYear: 2019
-  currentYear: 2020
-  author: Jevis Li
-  link: https://github.com/mtics/hexo-mtics-resume
-  beian: 
 
 ################################
 #     Write your resume Here   #
@@ -17,6 +16,7 @@ copyright:
 resume:
   name: YOUR NAME
   jobtitle: Your Job Title
+  portrait: http://oss.aspi.tech/blog/pic/portrait.png # author's portrait
   contact:
     - icon: fa-envelope
       text: youremail@example.com

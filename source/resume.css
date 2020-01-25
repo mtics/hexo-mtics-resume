@@ -9,7 +9,7 @@
 body {
   text-align: center;
   width: 100%;
-  font-family: "Noto Sans", "Segoe UI", Roboto, Helvetica, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+  font-family: system-ui,"Noto Sans", "Segoe UI", Roboto, Helvetica, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 1rem;
   margin: 0;
@@ -72,12 +72,27 @@ header {
 }
 
 .contact-item {
-  margin-top: .4rem; }
-  .contact-item:nth-child(1) {
-    margin-top: 0; }
-  .contact-item:a {
-    color: inherit;
-    text-decoration: none; }
+  margin-top: .4rem; 
+}
+.contact-item:nth-child(1) {
+  margin-top: 0; 
+}
+.contact-item:a {
+  color: inherit;
+  text-decoration: none; 
+}
+
+.portrait {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  text-align: right;
+}
+
+.author-img {
+  max-width: 5rem;
+  max-height: 7rem;
+}
 
 @media screen and (max-width: 48rem) {
   header {
@@ -159,4 +174,6 @@ footer {
   min-height: 3rem;
   line-height: 3rem;
   margin-top: 1rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem; 
+}
+

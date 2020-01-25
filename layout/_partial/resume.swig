@@ -21,6 +21,11 @@
       </div>
       {% endfor %}
     </div>
+    <div class="portrait">
+      {% if theme.resume.portrait %}
+      <img class="author-img" src="{{theme.resume.portrait}}" alt="author-img"/>
+      {% endif %}
+    </div>
   </header>
 
   <section id="education">

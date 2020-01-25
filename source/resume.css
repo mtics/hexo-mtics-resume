@@ -2,6 +2,8 @@
  * Theme of Mtics Resume
  * Copyright (c) Jevis Li, 2020
  */
+@import url(mobile.css) screen and (max-width: 48rem);
+
  html {
   width: 100%;
   font-size: 14px; }
@@ -29,19 +31,13 @@ a {
   max-width: 48rem;
   text-align: left; }
 
-@media screen and (max-width: 48rem) {
-  html {
-    font-size: 12px; }
-
-  .container {
-    padding-left: .4rem;
-    padding-right: .4rem; } }
 @media print {
   html {
     font-size: 12px; }
 
   .print {
-    display: none; } }
+    display: none; } 
+}
 
 header {
   display: grid;
@@ -95,32 +91,12 @@ header {
   max-height: 7rem;
 }
 
-@media screen and (max-width: 48rem) {
-  header {
-    display: block;
-    padding-bottom: 1rem; }
-
-  .name-wrapper {
-    text-align: center;
-    padding-bottom: 2rem; }
-
-  .contact {
-    padding-top: 1rem;
-    /* border-top: 0.1rem solid #adb5bd;  */
-  }
-
-  .contact-item {
-    padding-top: .2rem;
-    padding-left: .4rem; 
-  } 
-}
-
 section {
   display: inline-table;
   margin-top: .8rem;
   width: 100%;
-  /* border-bottom: 0.1rem solid #adb5bd; */
-  hyphens: auto; }
+  hyphens: auto; 
+}
 
 .section-title {
   font-size: 1.2rem;
@@ -159,18 +135,6 @@ section {
   grid-column-end: 3;
 }
 
-@media screen and (max-width: 48rem) {
-  section {
-    display: block;
-    padding-top: 2rem;
-    padding-bottom: 2rem; }
-
-  .section-title {
-    text-align: center;
-    margin-bottom: 2rem; }
-
-  
-}
 footer {
   color: #adb5bd;
   font-size: 1rem;

@@ -1,0 +1,38 @@
+html {
+    font-size: 12px; 
+}
+
+.container {
+    padding-left: .4rem;
+    padding-right: .4rem; 
+} 
+
+header {
+    display: block;
+    padding-bottom: 1rem; 
+}
+
+.name-wrapper {
+    text-align: center;
+    padding-bottom: 2rem; 
+}
+
+.contact {
+    padding-top: 1rem;
+}
+
+.contact-item {
+    padding-top: .2rem;
+    padding-left: .4rem; 
+} 
+
+section {
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem; 
+}

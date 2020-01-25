@@ -1,8 +1,8 @@
 /*
- * Theme of Crisp Minimal Resume
- * Copyright (c) David Zhang, 2019
+ * Theme of Mtics Resume
+ * Copyright (c) Jevis Li, 2020
  */
-html {
+ html {
   width: 100%;
   font-size: 14px; }
 
@@ -45,7 +45,7 @@ a {
 header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 0.1rem solid #adb5bd;
+  /* border-bottom: 0.1rem solid #adb5bd; */
   padding-top: 2.2rem;
   padding-bottom: 2.2rem; }
 
@@ -83,31 +83,42 @@ header {
 
   .contact {
     padding-top: 1rem;
-    border-top: 0.1rem solid #adb5bd; }
+    /* border-top: 0.1rem solid #adb5bd;  */
+  }
 
   .contact-item {
     padding-top: .2rem;
-    padding-left: .4rem; } }
+    padding-left: .4rem; 
+  } 
+}
+
 section {
-  display: flex;
+  display: inline-table;
   padding-top: 2.4rem;
   padding-bottom: 2.4rem;
   padding-left: .2rem;
-  border-bottom: 0.1rem solid #adb5bd;
+  width: 100%;
+  /* border-bottom: 0.1rem solid #adb5bd; */
   hyphens: auto; }
 
 .section-title {
   font-size: 1.6rem;
   text-align: left;
-  min-width: 10rem; }
+  border-bottom: 0.1rem solid #adb5bd;
+  min-width: 10rem; 
+}
 
 .section-flex {
   display: flex;
   flex-wrap: wrap; }
 
 .block {
-  margin-bottom: 2rem; }
-  .block:last-child {
+  margin-bottom: 2rem; 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr auto;
+}
+.block:last-child {
     margin-bottom: 0; }
 
 .block-square {
@@ -117,17 +128,23 @@ section {
 
 .block-title {
   font-size: 1.2rem;
+  display: table-header-group;
   margin-bottom: .4rem;
   font-weight: bold; }
 
 .block-subtitle {
   font-size: 1rem;
+  display: table-row;
   margin-bottom: 1rem;
   color: #adb5bd; }
 
 .block-content {
   font-size: 1rem;
-  line-height: 1.5; }
+  display: table-row;
+  line-height: 1.5; 
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
 
 @media screen and (max-width: 48rem) {
   section {

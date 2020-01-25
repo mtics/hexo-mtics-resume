@@ -121,13 +121,11 @@ section {
 
 .block-title {
   font-size: 1.2rem;
-  display: table-header-group;
   margin-bottom: .4rem;
   font-weight: bold; }
 
 .block-subtitle {
   font-size: 1rem;
-  display: table-row;
   margin-bottom: 1rem;
   color: #adb5bd; 
   text-align: end;
@@ -135,7 +133,6 @@ section {
 
 .block-content {
   font-size: 1rem;
-  display: table-row;
   line-height: 1.5; 
   grid-column-start: 1;
   grid-column-end: 3;

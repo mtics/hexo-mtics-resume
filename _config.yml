@@ -37,13 +37,6 @@ resume:
       duration: Aug 2007 - Jun 2011
       location: Ut enim ad minim veniam
       major: Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-  skills:
-    - title: Skill Group 1
-      items: Lorem, Ipsum, Dolor, Sit, Amet
-    - title: Skill Group 2
-      items: Consectetur, Adipiscing, Elit
-    - title: Skill Group 3
-      items: Sed do, Eiusmod, Tempor, Incididunt
   experience:
     - title: Job Title 1
       duration: Apr 2016 - Now
@@ -64,8 +57,10 @@ resume:
     - name: Project Name 2
       description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       contribution: Creator and maintainer.
-  languages:
-    - name: English
-      proficiency: Work proficiency
-    - name: Mandarin Chinese
-      proficiency: Native
+  skills:
+    - title: Skill Group 1
+      items: Lorem, Ipsum, Dolor, Sit, Amet
+    - title: Skill Group 2
+      items: Consectetur, Adipiscing, Elit
+    - title: Skill Group 3
+      items: Sed do, Eiusmod, Tempor, Incididunt

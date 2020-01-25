@@ -45,17 +45,15 @@ a {
 
 header {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 20% 30%;
   grid-template-rows: auto auto;
   /* border-bottom: 0.1rem solid #adb5bd; */
   padding-top: 2.2rem;
-  padding-bottom: 2.2rem; }
+}
 
 .name-wrapper {
-  padding-top: 1rem;
-  padding-bottom: 1rem; 
   display: grid;
-  grid-template-columns: 70% 30%;
+  grid-template-columns: auto auto;
 }
 
 .title {
@@ -67,7 +65,6 @@ header {
 
 .contact {
   font-size: 1rem;
-  padding-top: 1rem; 
   grid-row-start: 2;
   display: inline-grid;
   grid-template-columns: auto auto;
@@ -104,8 +101,6 @@ header {
 
 section {
   display: inline-table;
-  padding-top: 2.4rem;
-  padding-bottom: 2.4rem;
   padding-left: .2rem;
   width: 100%;
   /* border-bottom: 0.1rem solid #adb5bd; */
@@ -119,7 +114,7 @@ section {
 }
 
 .block {
-  margin-bottom: 2rem; 
+  margin-top: .2rem; 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr auto;
@@ -131,12 +126,10 @@ section {
 
 .block-title {
   font-size: 1.2rem;
-  margin-bottom: .4rem;
   font-weight: bold; }
 
 .block-subtitle {
   font-size: 1rem;
-  margin-bottom: 1rem;
   color: #adb5bd; 
   text-align: end;
 }

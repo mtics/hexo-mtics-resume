@@ -50,24 +50,6 @@
     </div>
   </section>
 
-  <section id="skills">
-    <div class="section-title">
-      Skills
-    </div>
-    <div class="section-content">
-      {% for skill in theme.resume.skills %}
-      <div class="block">
-        <div class="block-title">
-          {{ skill.title }}
-        </div>
-        <div class="block-subtitle">
-          {{ skill.items }}
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-
   <section id="experience">
     <div class="section-title">
       Experience
@@ -109,5 +91,23 @@
       {% endfor %}
     </div>
   </section>
+
+  <section id="skills">
+      <div class="section-title">
+        Skills
+      </div>
+      <div class="section-content">
+        {% for skill in theme.resume.skills %}
+        <div class="block">
+          <div class="block-title">
+            {{ skill.title }}
+          </div>
+          <div class="block-subtitle">
+            {{ skill.items }}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
 
 </div>

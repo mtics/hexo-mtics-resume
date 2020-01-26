@@ -28,8 +28,7 @@ A minimal resume theme for Hexo.
     # Clone the repo in your-site/themes/
     $ cd your-site/themes/
     $ git clone https://github.com/mtics/hexo-mtics-resume.git
-    
-    # Then, change theme in `_config.yml`
+
     ```
 4. Update
 
@@ -39,7 +38,7 @@ A minimal resume theme for Hexo.
     ```
 5. Config your resume data
 
-    Set theme:
+    Set theme in `your-site/_config.yml`:
 
     ```yaml
     theme: hexo-mtics-resume
@@ -110,6 +109,10 @@ resume:
     - title:
       items: 
 ```
+
+If you want to add your own modules, first follow the format above to add your own configurations in `theme/_config.yml`.
+
+Then follow the format in `theme/_partial/resume.swig` to add your modules.
 
 ## Features
 - Simple and intuitive

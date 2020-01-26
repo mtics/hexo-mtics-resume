@@ -49,8 +49,8 @@ header {
 }
 
 .author-img {
-    max-width: 5rem;
-    max-height: 7rem;
+    width: 5rem;
+    height: 7rem;
 }
 
 section {
@@ -69,7 +69,7 @@ section {
 .block {
     margin-top: .2rem; 
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, auto);
     grid-template-rows: 1fr auto;
 }
 

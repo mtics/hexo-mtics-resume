@@ -21,7 +21,7 @@ resume:
     - icon: fa-envelope
       text: youremail@example.com
     - icon: fa-phone-square
-      text: your-phone-num
+      text: phone-num
     - icon: fa-globe
       text: your-website.com
       link: https://github.com/mtics/hexo-mtics-resume

@@ -6,7 +6,7 @@ A minimal resume theme for Hexo.
 
 **Why**:  There were some bugs in [Crisp Minimal Résumé](https://github.com/crispgm/resume), so I forked it to fix and customize to my liking.
 
-[Hexo Demo](https://crispgm.github.io/resume-hexo-example/)
+[Live Demo](https://mtics.netlify.com/)
 
 ## Installation
 

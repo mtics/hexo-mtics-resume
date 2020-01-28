@@ -45,6 +45,11 @@ section {
     margin-bottom: .4rem; 
 }
 
+#skills .section-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 .block {
     margin-top: .2rem; 
     display: grid;

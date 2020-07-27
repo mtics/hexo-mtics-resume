@@ -8,6 +8,11 @@ A minimal resume theme for Hexo.
 
 [Live Demo](https://mtics.netlify.com/)
 
+## New Features
+
+- Version:**1.1.1**, Updates on **2020.07.27**:
+  - Now it supports en and zh-CN
+
 ## Installation
 
 1. Install Hexo

@@ -30,7 +30,7 @@
 
   <section id="education">
     <div class="section-title">
-      Education
+      {{ __('resume.education') }} 
     </div>
     <div class="section-content">
       {% for edu in theme.resume.education %}
@@ -57,7 +57,7 @@
 
   <section id="experience">
     <div class="section-title">
-      Experience
+      {{ __('resume.experience') }} 
     </div>
     <div class="section-content">
       {% for exp in theme.resume.experience %}
@@ -78,7 +78,7 @@
 
   <section id="projects">
     <div class="section-title">
-      Projects
+      {{ __('resume.projects') }} 
     </div>
     <div class="section-content">
       {% for project in theme.resume.projects %}
@@ -99,7 +99,7 @@
 
   <section id="skills">
       <div class="section-title">
-        Skills
+      {{ __('resume.skills') }} 
       </div>
       <div class="section-content">
         {% for skill in theme.resume.skills %}

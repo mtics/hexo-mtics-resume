@@ -16,7 +16,7 @@ footer:
 resume:
   name: YOUR NAME
   jobtitle: Your Job Title
-  portrait: http://oss.aspi.tech/blog/pic/portrait.png # author's portrait
+  portrait: img/avatar.jpg # author's portrait
   contact:
     - icon: fa-envelope
       text: youremail@example.com

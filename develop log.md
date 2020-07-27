@@ -4,7 +4,6 @@
 
 1. Add i18n support. Now it supports en and zh-CN
 2. update the footer's css
-3. 
 
 ## 1.1.0.1
 

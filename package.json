@@ -1,10 +1,10 @@
 {
-  "name": "hexo-theme-crisp-minimal-resume",
-  "version": "1.0.0",
-  "description": "Hexo port of Jekyll Crisp Minimal Resume Theme",
+  "name": "hexo-mtics-resume",
+  "version": "1.1.1",
+  "description": "A minimal resume theme for Hexo",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crispgm/resume.git"
+    "url": "git+https://github.com/mtics/hexo-mtics-resume.git"
   },
   "keywords": [
     "hexo",
@@ -15,6 +15,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "David Zhang",
+  "author": "Zhiwei Li",
   "license": "MIT"
 }

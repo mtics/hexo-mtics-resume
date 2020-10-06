@@ -1,5 +1,8 @@
 # Develop Log
 
+## 1.1.1.1
+1. Update the layout of header
+
 ## 1.1.1
 
 1. Add i18n support. Now it supports en and zh-CN

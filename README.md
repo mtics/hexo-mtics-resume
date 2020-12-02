@@ -27,9 +27,10 @@ A minimal resume theme for Hexo.
     ```
 
 3. Install dependency
-    This step is **not reall neccessary**. But if you have problem in ***rendering***, please try this command:
+
+    This step is **not reall necessary**. But if you have problem in ***rendering***, please try this command:
     ```sh
-    npm install hexo-render-swig
+    $ npm install hexo-render-swig
     ```
 
 4. Use Theme

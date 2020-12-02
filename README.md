@@ -1,11 +1,10 @@
 # Mtics Résumé for Hexo
 
-[![npm version](https://badge.fury.io/js/hexo-theme-crisp-minimal-resume.svg)](https://badge.fury.io/js/hexo-theme-crisp-minimal-resume)
-
 A minimal resume theme for Hexo.
 
 **Why**:  There were some bugs in [Crisp Minimal Résumé](https://github.com/crispgm/resume), so I forked it to fix and customize to my liking.
 
+## Demo
 [Live Demo](https://mtics.netlify.com/)
 
 ## New Features
@@ -27,7 +26,13 @@ A minimal resume theme for Hexo.
     $ hexo new your-site
     ```
 
-3. Use Theme
+3. Install dependency
+    This step is **not reall neccessary**. But if you have problem in ***rendering***, please try this command:
+    ```sh
+    npm install hexo-render-swig
+    ```
+
+4. Use Theme
 
     ```sh
     # Clone the repo in your-site/themes/
@@ -35,13 +40,13 @@ A minimal resume theme for Hexo.
     $ git clone https://github.com/mtics/hexo-mtics-resume.git
 
     ```
-4. Update
+5. Update
 
     ```sh
     $ cd themes/hexo-mtics-resume
     $ git pull
     ```
-5. Config your resume data
+6. Config your resume data
 
     Set theme in `your-site/_config.yml`:
 
@@ -51,7 +56,7 @@ A minimal resume theme for Hexo.
 
     The `baseurl` is required in `_config.yml` if you serve this page as part of your website. And your contact information, __EDUCATION__, __SKILLS__, __EXPERIENCE__, and __PROJECTS__ data under `resume`. See example in [/hexo-mtics-resume/_config.yml](/_config.yml).
 
-6. Run and Debug
+7. Run and Debug
 
     ```sh
     $ hexo s

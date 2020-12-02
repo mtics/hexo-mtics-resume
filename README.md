@@ -27,25 +27,28 @@ A minimal resume theme for Hexo.
     ```
 
 3. Install dependency
-    This step is **not reall neccessary**. But if you have problem in ***rendering***, please try this command:
+    This step is **not really necessary**. But if you have problem in ***rendering***, please try this command:
+    
     ```sh
-    npm install hexo-render-swig
-    ```
-
+    $ npm install hexo-render-swig
+```
+    
 4. Use Theme
 
     ```sh
     # Clone the repo in your-site/themes/
     $ cd your-site/themes/
     $ git clone https://github.com/mtics/hexo-mtics-resume.git
-
+    
     ```
+
 5. Update
 
     ```sh
     $ cd themes/hexo-mtics-resume
     $ git pull
     ```
+
 6. Config your resume data
 
     Set theme in `your-site/_config.yml`:

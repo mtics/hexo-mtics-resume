@@ -1,3 +1,4 @@
+.history/*
 /_site/
 Gemfile.lock
 *.gem

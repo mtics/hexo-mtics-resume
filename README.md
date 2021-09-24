@@ -1,5 +1,14 @@
 # Mtics Résumé for Hexo
 
+> **Important Notice**: 
+> Due to my study and limited abilities, it is difficult for me to continue to maintain this project on my own. 
+> I welcome all of you to help me maintain this project.
+>
+> **重要通知**：
+> 因为个人学业和能力有限的缘故，我很难自己继续维护这个项目。
+> 欢迎各位大佬来帮助我维护这个项目。
+
+
 A minimal resume theme for Hexo.
 
 **Why**:  There were some bugs in [Crisp Minimal Résumé](https://github.com/crispgm/resume), so I forked it to fix and customize to my liking.
